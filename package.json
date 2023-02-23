@@ -1,0 +1,32 @@
+{
+  "name": "pool-handlers",
+  "version": "1.0.2",
+  "description": "Pool handlers",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsputilov/pool-handlers.git"
+  },
+  "keywords": [
+    "pool",
+    "handlers",
+    "transactions"
+  ],
+  "author": "Dmitrii Putilov",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dsputilov/pool-handlers/issues"
+  },
+  "homepage": "https://github.com/dsputilov/pool-handlers#readme",
+  "dependencies": {
+    "inum": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "jest": "^29.4.3"
+  }
+}
